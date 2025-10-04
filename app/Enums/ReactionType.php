@@ -6,6 +6,10 @@ namespace App\Enums;
 
 enum ReactionType: string
 {
-    case PRIVATE = 'PRIVATE';
-    case GROUP = 'GROUP';
+    case LIKE = 'LIKE';
+    case LOVE = 'LOVE';
+    case LAUGH = 'LAUGH';
+    case ANGRY = 'ANGRY';
+    case SAD = 'SAD';
+    case WOW = 'WOW';
 }
