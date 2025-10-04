@@ -6,6 +6,7 @@
         "dev": "vite",
         "format": "prettier --write resources/",
         "format:check": "prettier --check resources/",
+        "test:lint": "eslint .",
         "lint": "eslint . --fix",
         "types": "tsc --noEmit"
     },
