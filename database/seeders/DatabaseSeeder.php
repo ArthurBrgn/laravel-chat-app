@@ -56,7 +56,7 @@ final class DatabaseSeeder extends Seeder
 
         $privateMessages = [
             [
-                'content' => 'Hi Alice! How are you doing?',
+                'content' => 'Hi Alice! How are you doing? 😊',
                 'conversation_id' => $privateConversation->id,
                 'user_id' => $testUser->id,
                 'created_at' => $now,
@@ -70,7 +70,7 @@ final class DatabaseSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'content' => 'Great too! Would you like to meet up for coffee this week?',
+                'content' => 'Great too! Would you like to meet up for coffee this week? ☕',
                 'conversation_id' => $privateConversation->id,
                 'user_id' => $testUser->id,
                 'created_at' => $now,
@@ -94,7 +94,7 @@ final class DatabaseSeeder extends Seeder
 
         $groupMessages = [
             [
-                'content' => 'Hello everyone! I\'ve finished implementing the chat functionality.',
+                'content' => 'Hello everyone! I\'ve finished implementing the chat functionality. 🎉',
                 'conversation_id' => $groupConversation->id,
                 'user_id' => $testUser->id,
                 'created_at' => $now,
@@ -108,7 +108,7 @@ final class DatabaseSeeder extends Seeder
                 'updated_at' => $now,
             ],
             [
-                'content' => 'Perfect, I\'ll test this on my side.',
+                'content' => 'Perfect, I\'ll test this on my side. 👍',
                 'conversation_id' => $groupConversation->id,
                 'user_id' => $bob->id,
                 'created_at' => $now,

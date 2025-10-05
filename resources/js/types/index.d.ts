@@ -18,5 +18,35 @@ export interface User {
     email_verified_at: string | null;
     created_at: string;
     updated_at: string;
-    [key: string]: unknown; // This allows for additional properties...
+}
+
+export interface PaginatedResponse<T> {
+    data: T[];
+    links: {
+        first: string;
+        last: string | null;
+        prev: string | null;
+        next: string | null;
+    };
+    meta: {
+        current_page: number;
+        current_page_url: string;
+        from: number;
+        path: string;
+        per_page: number;
+        to: number;
+    };
+}
+
+export interface Conversation {
+    id: number;
+    name: string;
+    type: 'PRIVATE' | 'GROUP';
+    last_message: Message;
+}
+
+export interface Message {
+    id: number;
+    content: string;
+    created_at: string;
 }
