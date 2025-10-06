@@ -1,17 +1,25 @@
+import { cn } from '@/lib/utils';
 import { Conversation } from '@/types';
+
+type Props = {
+    conversation: Conversation;
+    isSelected?: boolean;
+    onSelect: () => void;
+};
 
 export default function ConversationItem({
     conversation,
-    onClick,
-}: {
-    conversation: Conversation;
-    onClick?: () => void;
-}) {
+    isSelected,
+    onSelect,
+}: Props) {
     return (
         <div
             key={conversation.id}
-            className="cursor-pointer rounded-md p-2 hover:bg-neutral-700"
-            onClick={onClick}
+            className={cn(
+                'transition-background-color cursor-pointer rounded-lg p-2 duration-200',
+                isSelected ? 'bg-neutral-700' : 'hover:bg-neutral-800',
+            )}
+            onClick={onSelect}
         >
             <div className="font-medium">{conversation.name}</div>
             <div className="truncate text-sm text-neutral-500">

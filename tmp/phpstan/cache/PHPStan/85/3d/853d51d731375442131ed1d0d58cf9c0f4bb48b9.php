@@ -33,7 +33,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\web.php' => 
     array (
-      0 => 'e779f610348f3f46883fee61a9dffccdf4f988d1',
+      0 => '38cafaa01073cc7bfdb3c2fca3194474e1a020c0',
       1 => 
       array (
       ),

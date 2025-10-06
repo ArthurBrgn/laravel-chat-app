@@ -1,6 +1,5 @@
 import ChatWindow from '@/components/chat-window';
-import ConversationItem from '@/components/conversation-item';
-import SearchConversationInput from '@/components/search-conversation-input';
+import Sidebar from '@/components/sidebar';
 import { Conversation, PaginatedResponse } from '@/types';
 import { useState } from 'react';
 
@@ -15,22 +14,11 @@ export default function Dashboard({
 
     return (
         <main className="flex h-screen">
-            <aside className="w-80 bg-neutral-900 px-3 py-6">
-                <SearchConversationInput />
-
-                <section className="flex-1">
-                    {conversations.data.map((conversation) => (
-                        <ConversationItem
-                            key={conversation.id}
-                            conversation={conversation}
-                            onClick={() => {
-                                console.log(conversation.id);
-                                setSelectedConversationId(conversation.id);
-                            }}
-                        />
-                    ))}
-                </section>
-            </aside>
+            <Sidebar
+                conversations={conversations}
+                selectedConversationId={selectedConversationId}
+                onConversationSelect={setSelectedConversationId}
+            />
             <section>
                 {selectedConversationId && (
                     <ChatWindow conversationId={selectedConversationId} />

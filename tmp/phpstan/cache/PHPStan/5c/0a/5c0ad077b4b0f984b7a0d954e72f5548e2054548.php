@@ -127,7 +127,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php' => 
     array (
-      0 => '7d167489e00fd1da19e21ec5202885ce0ca23016',
+      0 => '9f3f851e2d8a521d001a9fd5bcd30cd7be0cbdf5',
       1 => 
       array (
         0 => 'database\\seeders\\databaseseeder',
@@ -135,6 +135,21 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       2 => 
       array (
         0 => 'database\\seeders\\run',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\MessageFactory.php' => 
+    array (
+      0 => '4239b212fcbaa788895a58b68dce5e43997be10a',
+      1 => 
+      array (
+        0 => 'database\\factories\\messagefactory',
+      ),
+      2 => 
+      array (
+        0 => 'database\\factories\\definition',
       ),
       3 => 
       array (

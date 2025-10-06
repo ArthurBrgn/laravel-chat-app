@@ -29,6 +29,7 @@ final class UserFactory extends Factory
             'name' => fake()->name(),
             'email' => fake()->unique()->safeEmail(),
             'password' => self::$password ??= Hash::make('password'),
+            'avatar' => 'https://i.pravatar.cc/150?u=' . fake()->unique()->uuid(),
             'remember_token' => Str::random(10),
         ];
     }
