@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Support\Facades\Auth;
 
 final class Conversation extends Model
 {
@@ -32,7 +33,7 @@ final class Conversation extends Model
         return $this->hasOne(Message::class)->latestOfMany();
     }
 
-    protected function name(): Attribute
+    protected function displayName(): Attribute
     {
         return Attribute::make(
             get: function (): string {
@@ -40,9 +41,24 @@ final class Conversation extends Model
                     return $this->name ?? 'Groupe';
                 }
 
-                return $this->users->where('id', '<>', auth()->id())
+                return $this->users->where('id', '<>', Auth::id())
                     ->first()
                     ->name;
+            }
+        );
+    }
+
+    protected function avatarUrl(): Attribute
+    {
+        return Attribute::make(
+            get: function (): ?string {
+                if ($this->users->count() > 2) {
+                    return $this->avatar;
+                }
+
+                return $this->users->where('id', '<>', Auth::id())
+                    ->first()
+                    ->avatar;
             }
         );
     }

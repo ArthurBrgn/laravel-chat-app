@@ -19,11 +19,11 @@ export default function Dashboard({
                 selectedConversationId={selectedConversationId}
                 onConversationSelect={setSelectedConversationId}
             />
-            <section>
+            <div className="flex-1">
                 {selectedConversationId && (
                     <ChatWindow conversationId={selectedConversationId} />
                 )}
-            </section>
+            </div>
         </main>
     );
 }

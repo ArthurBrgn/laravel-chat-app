@@ -41,6 +41,7 @@ export interface PaginatedResponse<T> {
 export interface Conversation {
     id: number;
     name: string;
+    avatar: string | null;
     type: 'PRIVATE' | 'GROUP';
     last_message: Message;
 }
@@ -49,4 +50,5 @@ export interface Message {
     id: number;
     content: string;
     created_at: string;
+    user: User;
 }

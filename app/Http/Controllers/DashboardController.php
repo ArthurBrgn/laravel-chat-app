@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use App\Http\Requests\SearchConversationsRequest;
+use App\Http\Requests\SendMessageRequest;
 use App\Http\Resources\ConversationResource;
 use App\Http\Resources\MessageResource;
 use App\Models\Conversation;
@@ -43,8 +44,21 @@ final class DashboardController extends Controller
 
     public function conversation(Conversation $conversation)
     {
-        $messages = $conversation->messages()->latest()->simplePaginate(50);
+        $messages = $conversation->messages()
+            ->with('user')
+            ->latest()
+            ->simplePaginate(50);
 
         return MessageResource::collection($messages);
+    }
+
+    public function sendMessage(SendMessageRequest $request, Conversation $conversation)
+    {
+        $message = $conversation->messages()->create([
+            'content' => $request->validated('content'),
+            'user_id' => Auth::id(),
+        ]);
+
+        return $message->load('user')->toResource();
     }
 }
