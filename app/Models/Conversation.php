@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace App\Models;
 
 use App\Enums\ConversationType;
+use App\Policies\ConversationPolicy;
+use Illuminate\Database\Eloquent\Attributes\UsePolicy;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -25,6 +27,7 @@ use Illuminate\Support\Facades\Auth;
  * @property-read string $displayName
  * @property-read string|null $avatarUrl
  */
+#[UsePolicy(ConversationPolicy::class)]
 final class Conversation extends Model
 {
     protected $casts = [

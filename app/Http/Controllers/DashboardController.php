@@ -26,6 +26,7 @@ final class DashboardController extends Controller
         $conversations = Auth::user()
             ->conversations()
             ->with(['lastMessage', 'users'])
+            ->withMax('messages', 'created_at')
             ->when($search, function (Builder $query) use ($search) {
                 $query->where(function ($q) use ($search) {
                     $q->where('name', 'like', "%{$search}%")
@@ -34,6 +35,7 @@ final class DashboardController extends Controller
                         });
                 });
             })
+            ->orderByDesc('messages_max_created_at')
             ->simplePaginate(20);
 
         return Inertia::render(
@@ -44,6 +46,8 @@ final class DashboardController extends Controller
 
     public function conversation(Conversation $conversation)
     {
+        $this->authorize('view', $conversation);
+
         $messages = $conversation->messages()
             ->with('user')
             ->latest()
@@ -54,6 +58,8 @@ final class DashboardController extends Controller
 
     public function sendMessage(SendMessageRequest $request, Conversation $conversation)
     {
+        $this->authorize('sendMessage', $conversation);
+
         $message = $conversation->messages()->create([
             'content' => $request->validated('content'),
             'user_id' => Auth::id(),
