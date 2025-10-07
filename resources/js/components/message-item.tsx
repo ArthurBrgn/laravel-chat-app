@@ -16,7 +16,12 @@ export default function MessageItem({ message, currentUserId }: Props) {
                 isMine ? 'self-end bg-blue-600' : 'self-start bg-neutral-900',
             )}
         >
-            {message.content}
+            {!isMine && (
+                <div className="text-base text-neutral-500">
+                    {message.user.name}
+                </div>
+            )}
+            <div>{message.content}</div>
         </div>
     );
 }

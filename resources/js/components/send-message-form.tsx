@@ -41,7 +41,7 @@ export default function SendMessageForm({
             onSendMessage(newMessage);
             sendInputRef.current?.focus();
         } catch (error) {
-            console.error('Erreur envoi message:', error);
+            console.error('Error send message:', error);
         }
     };
 
@@ -53,7 +53,7 @@ export default function SendMessageForm({
             <Input
                 ref={sendInputRef}
                 type="text"
-                placeholder="Envoyer un message"
+                placeholder="Send"
                 className="h-14 rounded-4xl border-0 bg-neutral-900 px-4"
                 value={content}
                 onChange={(e) => setContent(e.target.value)}
