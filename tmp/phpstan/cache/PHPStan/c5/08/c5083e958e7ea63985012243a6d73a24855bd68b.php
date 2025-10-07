@@ -5174,7 +5174,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\Attributes\\DataProvider.php' => 
     array (
-      0 => '68cd7521ca35dabeaac99ad5bf7b6aa61e4a3d26',
+      0 => 'a1dbbb7e967dd5f46c9d627fe2564ea758a662b7',
       1 => 
       array (
         0 => 'phpunit\\framework\\attributes\\dataprovider',
@@ -5183,6 +5183,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
         0 => 'phpunit\\framework\\attributes\\__construct',
         1 => 'phpunit\\framework\\attributes\\methodname',
+        2 => 'phpunit\\framework\\attributes\\validateargumentcount',
       ),
       3 => 
       array (
@@ -5190,7 +5191,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\Attributes\\DataProviderExternal.php' => 
     array (
-      0 => 'e4ce059fc74ec9ce102f26acb46b35f8ebff399e',
+      0 => '1c363f466ca707dd3cda3d4c5750cb6cde6a4129',
       1 => 
       array (
         0 => 'phpunit\\framework\\attributes\\dataproviderexternal',
@@ -5200,6 +5201,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         0 => 'phpunit\\framework\\attributes\\__construct',
         1 => 'phpunit\\framework\\attributes\\classname',
         2 => 'phpunit\\framework\\attributes\\methodname',
+        3 => 'phpunit\\framework\\attributes\\validateargumentcount',
       ),
       3 => 
       array (
@@ -5431,13 +5433,15 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\Attributes\\IgnoreDeprecations.php' => 
     array (
-      0 => '4c22e865137e5c0c5903395510dd6dbd2411f449',
+      0 => '96292b25bae59922483c2b061e9c8492a42ab330',
       1 => 
       array (
         0 => 'phpunit\\framework\\attributes\\ignoredeprecations',
       ),
       2 => 
       array (
+        0 => 'phpunit\\framework\\attributes\\__construct',
+        1 => 'phpunit\\framework\\attributes\\messagepattern',
       ),
       3 => 
       array (
@@ -5715,7 +5719,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\Attributes\\RunClassInSeparateProcess.php' => 
     array (
-      0 => '9d01bc6faa257f4eb751501b7c53b5fec0709579',
+      0 => '9eccd8630f80d409b8889ca00d8dc027e78876d3',
       1 => 
       array (
         0 => 'phpunit\\framework\\attributes\\runclassinseparateprocess',
@@ -6163,23 +6167,24 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\Constraint\\Constraint.php' => 
     array (
-      0 => '718583282412e857358a942907aa51ff853512a7',
+      0 => '9e3a065e96d8b992d2c70b31b828fee4e4c12928',
       1 => 
       array (
         0 => 'phpunit\\framework\\constraint\\constraint',
       ),
       2 => 
       array (
-        0 => 'phpunit\\framework\\constraint\\evaluate',
-        1 => 'phpunit\\framework\\constraint\\count',
-        2 => 'phpunit\\framework\\constraint\\matches',
-        3 => 'phpunit\\framework\\constraint\\fail',
-        4 => 'phpunit\\framework\\constraint\\additionalfailuredescription',
-        5 => 'phpunit\\framework\\constraint\\failuredescription',
-        6 => 'phpunit\\framework\\constraint\\tostringincontext',
-        7 => 'phpunit\\framework\\constraint\\failuredescriptionincontext',
-        8 => 'phpunit\\framework\\constraint\\reduce',
-        9 => 'phpunit\\framework\\constraint\\valuetotypestringfragment',
+        0 => 'phpunit\\framework\\constraint\\__invoke',
+        1 => 'phpunit\\framework\\constraint\\evaluate',
+        2 => 'phpunit\\framework\\constraint\\count',
+        3 => 'phpunit\\framework\\constraint\\matches',
+        4 => 'phpunit\\framework\\constraint\\fail',
+        5 => 'phpunit\\framework\\constraint\\additionalfailuredescription',
+        6 => 'phpunit\\framework\\constraint\\failuredescription',
+        7 => 'phpunit\\framework\\constraint\\tostringincontext',
+        8 => 'phpunit\\framework\\constraint\\failuredescriptionincontext',
+        9 => 'phpunit\\framework\\constraint\\reduce',
+        10 => 'phpunit\\framework\\constraint\\valuetotypestringfragment',
       ),
       3 => 
       array (
@@ -8693,7 +8698,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Framework\\TestBuilder.php' => 
     array (
-      0 => 'd5a5f90656870e8353eeac8bb1ba3c8751bd07bb',
+      0 => '27d19c707682113f6d6dd9674ed064728bed6abe',
       1 => 
       array (
         0 => 'phpunit\\framework\\testbuilder',
@@ -10671,7 +10676,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Metadata\\Api\\DataProvider.php' => 
     array (
-      0 => '907c70493f46205b9ee7f914b9523436bbaa1f6f',
+      0 => '5aae241f80ac9440d4ab8258bfbc47ee767cb575',
       1 => 
       array (
         0 => 'phpunit\\metadata\\api\\dataprovider',
@@ -10682,6 +10687,9 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'phpunit\\metadata\\api\\dataprovidedbymethods',
         2 => 'phpunit\\metadata\\api\\dataprovidedbymetadata',
         3 => 'phpunit\\metadata\\api\\formatkey',
+        4 => 'phpunit\\metadata\\api\\triggerwarningformixingofdataproviderandtestwith',
+        5 => 'phpunit\\metadata\\api\\triggerwarningforargumentcount',
+        6 => 'phpunit\\metadata\\api\\testvalueobject',
       ),
       3 => 
       array (
@@ -10974,7 +10982,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Metadata\\DataProvider.php' => 
     array (
-      0 => '924cf067bf6ebe4b6bfe6a31f3cf5762785ddfbe',
+      0 => '9d8907b3cf9d1cad404c342c26e4139cd752a297',
       1 => 
       array (
         0 => 'phpunit\\metadata\\dataprovider',
@@ -10985,6 +10993,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'phpunit\\metadata\\isdataprovider',
         2 => 'phpunit\\metadata\\classname',
         3 => 'phpunit\\metadata\\methodname',
+        4 => 'phpunit\\metadata\\validateargumentcount',
       ),
       3 => 
       array (
@@ -11170,14 +11179,16 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Metadata\\IgnoreDeprecations.php' => 
     array (
-      0 => 'dd917bfa994ae40dd21da384f1ebbd0149c4946e',
+      0 => '0e0d267f00440c406d1d129a6a75d14ab9ba995b',
       1 => 
       array (
         0 => 'phpunit\\metadata\\ignoredeprecations',
       ),
       2 => 
       array (
-        0 => 'phpunit\\metadata\\isignoredeprecations',
+        0 => 'phpunit\\metadata\\__construct',
+        1 => 'phpunit\\metadata\\isignoredeprecations',
+        2 => 'phpunit\\metadata\\messagepattern',
       ),
       3 => 
       array (
@@ -11217,7 +11228,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Metadata\\Metadata.php' => 
     array (
-      0 => 'aa76353648cdde422fb3d7b3fa9e32aa05993700',
+      0 => 'a8996ee870d67c558e814e569b00f739d25a67cb',
       1 => 
       array (
         0 => 'phpunit\\metadata\\metadata',
@@ -11463,7 +11474,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Metadata\\Parser\\AttributeParser.php' => 
     array (
-      0 => '264656a575d8a4f5418a50fb80aa85bd912d96d6',
+      0 => 'ec78b6a38c93e6e91d8ae7fbee1441d70f1ca96c',
       1 => 
       array (
         0 => 'phpunit\\metadata\\parser\\attributeparser',
@@ -11474,7 +11485,8 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         1 => 'phpunit\\metadata\\parser\\formethod',
         2 => 'phpunit\\metadata\\parser\\forclassandmethod',
         3 => 'phpunit\\metadata\\parser\\issizegroup',
-        4 => 'phpunit\\metadata\\parser\\testasstring',
+        4 => 'phpunit\\metadata\\parser\\requirement',
+        5 => 'phpunit\\metadata\\parser\\testasstring',
       ),
       3 => 
       array (
@@ -12495,7 +12507,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Runner\\ErrorHandler.php' => 
     array (
-      0 => '4a5a257e9b67eccb311be0585dafed8158d8c8ba',
+      0 => 'f104f81c819c92232d97138e2a6fb75ab79012ef',
       1 => 
       array (
         0 => 'phpunit\\runner\\errorhandler',
@@ -12524,6 +12536,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         19 => 'phpunit\\runner\\stacktrace',
         20 => 'phpunit\\runner\\triggerglobaldeprecations',
         21 => 'phpunit\\runner\\testcasecontext',
+        22 => 'phpunit\\runner\\deprecationignoredbytest',
       ),
       3 => 
       array (
@@ -14132,7 +14145,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Runner\\Version.php' => 
     array (
-      0 => '055c67d52728c7b39ac91763a6488212fe5ed558',
+      0 => '3085d377ac66fa1712ef3e3d0a51abd65401eddb',
       1 => 
       array (
         0 => 'phpunit\\runner\\version',
@@ -18125,7 +18138,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\phpunit\\phpunit\\src\\Util\\GlobalState.php' => 
     array (
-      0 => '0ccf5c7306c1b2edcf8b2269421e6771e4a4c605',
+      0 => '13474182bd6a05e8ca0d56579ddcc55463b6bb93',
       1 => 
       array (
         0 => 'phpunit\\util\\globalstate',

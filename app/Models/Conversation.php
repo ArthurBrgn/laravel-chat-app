@@ -12,6 +12,19 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Facades\Auth;
 
+/**
+ * @property-read int $id
+ * @property-read ConversationType $type
+ * @property-read string|null $name
+ * @property-read string|null $avatar
+ * @property-read \Illuminate\Support\Carbon $created_at
+ * @property-read \Illuminate\Support\Carbon $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|User[] $users
+ * @property-read \Illuminate\Database\Eloquent\Collection|Message[] $messages
+ * @property-read Message|null $lastMessage
+ * @property-read string $displayName
+ * @property-read string|null $avatarUrl
+ */
 final class Conversation extends Model
 {
     protected $casts = [

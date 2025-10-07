@@ -26,14 +26,14 @@ export default function ChatWindow({ conversationId }: Props) {
 
     useEffect(() => {
         fetchMessages(true);
-    }, [conversationId]);
+    }, [fetchMessages]);
 
     useEffect(() => {
         const container = containerRef.current;
         if (!container) return;
         container.addEventListener('scroll', throttledScroll);
         return () => container.removeEventListener('scroll', throttledScroll);
-    }, [throttledScroll]);
+    }, [containerRef, throttledScroll]);
 
     return (
         <div className="flex h-full flex-col justify-end gap-y-4 px-4 py-4">
@@ -62,7 +62,7 @@ function MessagesList({
     isLoading: boolean;
 }) {
     return (
-        <section className="relative flex flex-col-reverse space-y-4 space-y-reverse overflow-y-auto px-4">
+        <section className="relative flex flex-col-reverse space-y-4 space-y-reverse overflow-y-auto">
             {messages?.map((message) => (
                 <MessageItem
                     key={message.id}

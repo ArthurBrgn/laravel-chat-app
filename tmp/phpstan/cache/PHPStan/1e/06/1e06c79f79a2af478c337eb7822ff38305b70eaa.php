@@ -97,7 +97,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Middleware\\HandleInertiaRequests.php' => 
     array (
-      0 => '049f643e8df4fa14cd80a5376ec6cf1145f9e47b',
+      0 => 'ef4d423c97ac251e189caeeaeff45babb1769190',
       1 => 
       array (
         0 => 'app\\http\\middleware\\handleinertiarequests',
@@ -147,7 +147,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php' => 
     array (
-      0 => '0366a1ccbfc0d5e5ce879a27fceeac9e61c926e2',
+      0 => '844749cba9e207186085f07ed310621e18ab4caf',
       1 => 
       array (
         0 => 'app\\models\\conversation',
@@ -157,7 +157,8 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
         0 => 'app\\models\\users',
         1 => 'app\\models\\messages',
         2 => 'app\\models\\lastmessage',
-        3 => 'app\\models\\name',
+        3 => 'app\\models\\displayname',
+        4 => 'app\\models\\avatarurl',
       ),
       3 => 
       array (
@@ -251,7 +252,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php' => 
     array (
-      0 => 'be23e1e96b8ac508775503f57f855e92329fb34a',
+      0 => 'c442a4c3427873883d1bb2abafffa4bf66964689',
       1 => 
       array (
         0 => 'app\\http\\controllers\\dashboardcontroller',
@@ -260,6 +261,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
         0 => 'app\\http\\controllers\\home',
         1 => 'app\\http\\controllers\\conversation',
+        2 => 'app\\http\\controllers\\sendmessage',
       ),
       3 => 
       array (
@@ -267,7 +269,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\SearchConversationsRequest.php' => 
     array (
-      0 => '8bbd339fa51ffb17455144369f78e86a8abbe1f4',
+      0 => '1065f8f33c790753db3d9f647f8bcd571a47b321',
       1 => 
       array (
         0 => 'app\\http\\requests\\searchconversationsrequest',
@@ -283,7 +285,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php' => 
     array (
-      0 => 'dbeb7e64f5cdc4fb1a4faf043b6b123a61116f66',
+      0 => 'e363c79e54131a5e7434020afdd5ac546a065e4b',
       1 => 
       array (
         0 => 'app\\http\\resources\\conversationresource',
@@ -298,7 +300,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php' => 
     array (
-      0 => 'a8bb1764a7b9f81f04cce984b1d46c330ecd7046',
+      0 => '87232740bdf5e36e9fc2a2a36514a15453c339c4',
       1 => 
       array (
         0 => 'app\\http\\resources\\messageresource',
@@ -306,6 +308,22 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       2 => 
       array (
         0 => 'app\\http\\resources\\toarray',
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\SendMessageRequest.php' => 
+    array (
+      0 => 'e0733bf5558a8836a09f92be1cda1240a7a776ff',
+      1 => 
+      array (
+        0 => 'app\\http\\requests\\sendmessagerequest',
+      ),
+      2 => 
+      array (
+        0 => 'app\\http\\requests\\authorize',
+        1 => 'app\\http\\requests\\rules',
       ),
       3 => 
       array (

@@ -7,7 +7,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
   array (
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\UserFactory.php' => 
     array (
-      0 => '803acaa9fe50a073f98120bdd6e255f7e3c96493',
+      0 => '5c415732a2b9a810254dc5ca0117dcc344545f44',
       1 => 
       array (
         0 => 'database\\factories\\userfactory',
@@ -22,7 +22,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\0001_01_01_000000_create_users_table.php' => 
     array (
-      0 => 'd6309ef21ffb2b2cfd4189de9ce67c9df1e9e618',
+      0 => '6f784c05f47153bef119bda1aafe9cf79f1af858',
       1 => 
       array (
       ),
@@ -67,7 +67,7 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
     ),
     'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155051_create_conversations_table.php' => 
     array (
-      0 => '35de100a093afc7a78bf7c88a137610ac7566555',
+      0 => '92220c02f9d21504a7418dc53e755841151553f4',
       1 => 
       array (
       ),

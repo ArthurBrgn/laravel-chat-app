@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-export function useThrottleFn<T extends (...args: any[]) => void>(
+export function useThrottleFn<T extends (...args: unknown[]) => void>(
     fn: T,
     delay = 300,
 ) {
