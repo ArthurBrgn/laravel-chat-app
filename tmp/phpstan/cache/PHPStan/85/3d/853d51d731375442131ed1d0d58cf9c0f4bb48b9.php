@@ -44,5 +44,18 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
       ),
     ),
+    'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php' => 
+    array (
+      0 => '4b2ce8951f2021c9b1980ccbf969c4f0d27db08d',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
   ),
 ));

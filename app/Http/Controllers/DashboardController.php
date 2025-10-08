@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use App\Events\MessageSent;
 use App\Http\Requests\SearchConversationsRequest;
 use App\Http\Requests\SendMessageRequest;
 use App\Http\Resources\ConversationResource;
@@ -64,6 +65,8 @@ final class DashboardController extends Controller
             'content' => $request->validated('content'),
             'user_id' => Auth::id(),
         ]);
+
+        broadcast(new MessageSent($message))->toOthers();
 
         return $message->load('user')->toResource();
     }

@@ -50,5 +50,6 @@ export interface Message {
     id: number;
     content: string;
     created_at: string;
+    created_at_for_humans: string;
     user: User;
 }

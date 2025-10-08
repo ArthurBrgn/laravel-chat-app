@@ -2,6 +2,7 @@ import useChat from '@/hooks/use-chat';
 import { useThrottleFn } from '@/hooks/use-throttle';
 import { Message, User } from '@/types';
 import { usePage } from '@inertiajs/react';
+import { useEcho } from '@laravel/echo-react';
 import { useEffect } from 'react';
 import MessageItem from './message-item';
 import SendMessageForm from './send-message-form';
@@ -23,6 +24,10 @@ export default function ChatWindow({ conversationId }: Props) {
     } = useChat(conversationId);
 
     const throttledScroll = useThrottleFn(handleScroll, 1000);
+
+    useEcho(`conversation.${conversationId}`, '.message.sent', (e: Message) => {
+        setMessages((prev) => [e, ...(prev ?? [])]);
+    });
 
     useEffect(() => {
         fetchMessages(true);

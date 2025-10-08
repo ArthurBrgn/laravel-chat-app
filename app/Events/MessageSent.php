@@ -6,13 +6,16 @@ namespace App\Events;
 
 use App\Http\Resources\MessageResource;
 use App\Models\Message;
+use Illuminate\Broadcasting\Channel;
+use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
+use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
 
 final class MessageSent implements ShouldBroadcast
 {
-    use SerializesModels;
+    use Dispatchable, SerializesModels, InteractsWithSockets;
 
     /**
      * Create a new event instance.
@@ -24,11 +27,9 @@ final class MessageSent implements ShouldBroadcast
      *
      * @return array<int, \Illuminate\Broadcasting\Channel>
      */
-    public function broadcastOn(): array
+    public function broadcastOn(): Channel
     {
-        return [
-            new PrivateChannel('conversation.'.$this->message->conversation->id),
-        ];
+        return new PrivateChannel('conversation.' . $this->message->conversation_id);
     }
 
     public function broadcastAs(): string

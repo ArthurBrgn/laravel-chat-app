@@ -17,11 +17,14 @@ export default function MessageItem({ message, currentUserId }: Props) {
             )}
         >
             {!isMine && (
-                <div className="text-base text-neutral-500">
-                    {message.user.name}
-                </div>
+                <p className="text-base text-neutral-500">
+                    {message.user.name} -{' '}
+                    <span className="text-sm">
+                        {message.created_at_for_humans}
+                    </span>
+                </p>
             )}
-            <div>{message.content}</div>
+            <p>{message.content}</p>
         </div>
     );
 }

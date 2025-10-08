@@ -161,5 +161,31 @@ return \PHPStan\Cache\CacheItem::__set_state(array(
       array (
       ),
     ),
+    'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\broadcasting.php' => 
+    array (
+      0 => '4959169619d0ef280e1406b8c9fb5784d23802db',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
+    'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\reverb.php' => 
+    array (
+      0 => '582ca6baf9aa02fe0eb812a6bfc15fc89d71841a',
+      1 => 
+      array (
+      ),
+      2 => 
+      array (
+      ),
+      3 => 
+      array (
+      ),
+    ),
   ),
 ));

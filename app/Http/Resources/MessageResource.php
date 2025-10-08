@@ -22,6 +22,7 @@ final class MessageResource extends JsonResource
         return [
             'id' => $this->id,
             'content' => $this->content,
+            'created_at_for_humans' => $this->created_at_for_humans,
             'created_at' => $this->created_at,
             'user' => $this->whenLoaded('user'),
         ];

@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1759850477,
+	'lastFullAnalysisTime' => 1759918667,
 	'meta' => array (
   'cacheVersion' => 'v12-linesToIgnore',
   'phpstanVersion' => '2.1.30',
@@ -24,7 +24,7 @@ return [
   ),
   'composerLocks' => 
   array (
-    'C:/Users/arthu/Herd/laravel-chat-app/composer.lock' => '83aa193e820316b619b222113ea5c1f718da3069',
+    'C:/Users/arthu/Herd/laravel-chat-app/composer.lock' => '102caffb7df8cd5150b09d391af61ac3c9a11081',
   ),
   'composerInstalled' => 
   array (
@@ -75,6 +75,30 @@ return [
           'reference' => '18ba5ddfec8976260ead6e866180bd5d2f71aa1d',
           'type' => 'library',
           'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../carbonphp/carbon-doctrine-types',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'clue/redis-protocol' => 
+        array (
+          'pretty_version' => 'v0.3.2',
+          'version' => '0.3.2.0',
+          'reference' => '6f565332f5531b7722d1e9c445314b91862f6d6c',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../clue/redis-protocol',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'clue/redis-react' => 
+        array (
+          'pretty_version' => 'v2.8.0',
+          'version' => '2.8.0.0',
+          'reference' => '84569198dfd5564977d2ae6a32de4beb5a24bdca',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../clue/redis-react',
           'aliases' => 
           array (
           ),
@@ -175,6 +199,18 @@ return [
           'reference' => 'd42c8731f0624ad6bdc8d3e5e9a4524f68801cfa',
           'type' => 'library',
           'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../egulias/email-validator',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'evenement/evenement' => 
+        array (
+          'pretty_version' => 'v3.0.2',
+          'version' => '3.0.2.0',
+          'reference' => '0a16b0d71ab13284339abb99d9d2bd813640efbc',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../evenement/evenement',
           'aliases' => 
           array (
           ),
@@ -696,6 +732,18 @@ return [
           ),
           'dev_requirement' => false,
         ),
+        'laravel/reverb' => 
+        array (
+          'pretty_version' => 'v1.6.0',
+          'version' => '1.6.0.0',
+          'reference' => '728f6e2c779dae844c2862ea060ca32db5b6b495',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../laravel/reverb',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
         'laravel/sail' => 
         array (
           'pretty_version' => 'v1.46.0',
@@ -951,6 +999,18 @@ return [
           'reference' => 'd5b01a39b3415c2cd581d3bd3a3575c1ebbd8e77',
           'type' => 'library',
           'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../paragonie/constant_time_encoding',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'paragonie/sodium_compat' => 
+        array (
+          'pretty_version' => 'v2.4.0',
+          'version' => '2.4.0.0',
+          'reference' => '547e2dc4d45107440e76c17ab5a46e4252460158',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../paragonie/sodium_compat',
           'aliases' => 
           array (
           ),
@@ -1381,6 +1441,18 @@ return [
           ),
           'dev_requirement' => false,
         ),
+        'pusher/pusher-php-server' => 
+        array (
+          'pretty_version' => '7.2.7',
+          'version' => '7.2.7.0',
+          'reference' => '148b0b5100d000ed57195acdf548a2b1b38ee3f7',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../pusher/pusher-php-server',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
         'ralouphie/getallheaders' => 
         array (
           'pretty_version' => '3.0.3',
@@ -1412,6 +1484,102 @@ return [
           'reference' => '81f941f6f729b1e3ceea61d9d014f8b6c6800440',
           'type' => 'library',
           'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../ramsey/uuid',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'ratchet/rfc6455' => 
+        array (
+          'pretty_version' => 'v0.4.0',
+          'version' => '0.4.0.0',
+          'reference' => '859d95f85dda0912c6d5b936d036d044e3af47ef',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../ratchet/rfc6455',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/cache' => 
+        array (
+          'pretty_version' => 'v1.2.0',
+          'version' => '1.2.0.0',
+          'reference' => 'd47c472b64aa5608225f47965a484b75c7817d5b',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/cache',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/dns' => 
+        array (
+          'pretty_version' => 'v1.13.0',
+          'version' => '1.13.0.0',
+          'reference' => 'eb8ae001b5a455665c89c1df97f6fb682f8fb0f5',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/dns',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/event-loop' => 
+        array (
+          'pretty_version' => 'v1.5.0',
+          'version' => '1.5.0.0',
+          'reference' => 'bbe0bd8c51ffc05ee43f1729087ed3bdf7d53354',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/event-loop',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/promise' => 
+        array (
+          'pretty_version' => 'v3.3.0',
+          'version' => '3.3.0.0',
+          'reference' => '23444f53a813a3296c1368bb104793ce8d88f04a',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/promise',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/promise-timer' => 
+        array (
+          'pretty_version' => 'v1.11.0',
+          'version' => '1.11.0.0',
+          'reference' => '4f70306ed66b8b44768941ca7f142092600fafc1',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/promise-timer',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/socket' => 
+        array (
+          'pretty_version' => 'v1.16.0',
+          'version' => '1.16.0.0',
+          'reference' => '23e4ff33ea3e160d2d1f59a0e6050e4b0fb0eac1',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/socket',
+          'aliases' => 
+          array (
+          ),
+          'dev_requirement' => false,
+        ),
+        'react/stream' => 
+        array (
+          'pretty_version' => 'v1.4.0',
+          'version' => '1.4.0.0',
+          'reference' => '1e5b0acb8fe55143b5b426817155190eb6f5b18d',
+          'type' => 'library',
+          'install_path' => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\vendor\\composer/../react/stream',
           'aliases' => 
           array (
           ),
@@ -2143,6 +2311,29 @@ return [
 	'unmatchedLineIgnores' => array (
 ),
 	'collectedDataCallback' => static function (): array { return array (
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\ConstructorWithoutImpurePointsCollector' => 
+    array (
+      0 => 'App\\Events\\MessageSent',
+    ),
+    'PHPStan\\Rules\\DeadCode\\MethodWithoutImpurePointsCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'App\\Events\\MessageSent',
+        1 => 'broadcastAs',
+        2 => 'App\\Events\\MessageSent',
+      ),
+    ),
+    'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Queue\\SerializesModels',
+      ),
+    ),
+  ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\RegisteredUserController.php' => 
   array (
     'PHPStan\\Rules\\DeadCode\\PossiblyPureFuncCallCollector' => 
@@ -2151,6 +2342,40 @@ return [
       array (
         0 => 'event',
         1 => 47,
+      ),
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Controller.php' => 
+  array (
+    'PHPStan\\Rules\\Traits\\TraitUseCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests',
+      ),
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureMethodCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'App\\Http\\Controllers\\Controller',
+        ),
+        1 => 'authorize',
+        2 => 49,
+      ),
+      1 => 
+      array (
+        0 => 
+        array (
+          0 => 'App\\Http\\Controllers\\Controller',
+        ),
+        1 => 'authorize',
+        2 => 61,
       ),
     ),
   ),
@@ -2311,6 +2536,18 @@ return [
       ),
     ),
   ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php' => 
+  array (
+    'PHPStan\\Rules\\DeadCode\\PossiblyPureStaticCallCollector' => 
+    array (
+      0 => 
+      array (
+        0 => 'Illuminate\\Support\\Facades\\Broadcast',
+        1 => 'channel',
+        2 => 9,
+      ),
+    ),
+  ),
 ); },
 	'dependencies' => array (
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Enums\\ConversationType.php' => 
@@ -2318,14 +2555,8 @@ return [
     'fileHash' => '25c02f1591b45400b77f2ceb14188a4bebd2c416',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
-      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
-      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
-      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php',
-      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\User.php',
-      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
-      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
-      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
+      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Enums\\ReactionType.php' => 
@@ -2334,6 +2565,13 @@ return [
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php' => 
+  array (
+    'fileHash' => '2b7b5f02ea5dea375c7ad2c72874d073ac77d11e',
+    'dependentFiles' => 
+    array (
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\AuthenticatedSessionController.php' => 
@@ -2354,7 +2592,7 @@ return [
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Controller.php' => 
   array (
-    'fileHash' => '75cadca8afa5982965d1ac316df3c693271b4902',
+    'fileHash' => '387651722272409b0382337e02b02c508bb85e4a',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\AuthenticatedSessionController.php',
@@ -2366,7 +2604,7 @@ return [
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php' => 
   array (
-    'fileHash' => 'c442a4c3427873883d1bb2abafffa4bf66964689',
+    'fileHash' => '8ffbbe07e5210ae81b40246767224ff924c6948f',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\web.php',
@@ -2421,7 +2659,7 @@ return [
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php' => 
   array (
-    'fileHash' => 'e363c79e54131a5e7434020afdd5ac546a065e4b',
+    'fileHash' => '73ecc1b8b762a731a44530f2bad3aa970a31f595',
     'dependentFiles' => 
     array (
       0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
@@ -2429,43 +2667,53 @@ return [
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php' => 
   array (
-    'fileHash' => '87232740bdf5e36e9fc2a2a36514a15453c339c4',
+    'fileHash' => 'a567434c959e3d35e3cb2c3e7c7c8c12c4f0f52f',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
-      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php',
+      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
+      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php' => 
   array (
-    'fileHash' => '844749cba9e207186085f07ed310621e18ab4caf',
+    'fileHash' => '7f70f2f2888beeaf63f27ac1509dfba510cec068',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
-      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
-      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php',
-      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\User.php',
-      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
-      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
-      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php',
+      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
+      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
+      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php',
+      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php',
+      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
+      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\User.php',
+      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Policies\\ConversationPolicy.php',
+      8 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
+      9 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
+      10 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155225_create_reactions_table.php',
+      11 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      12 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php',
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php' => 
   array (
-    'fileHash' => '5a7f5c7e3a3d2075d588d0a03102c23438100df4',
+    'fileHash' => '5ecb2fc7331d286f804dff55ef812bc5fa563700',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
-      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
-      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php',
-      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
-      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
-      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\User.php',
-      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\MessageFactory.php',
-      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
-      8 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
-      9 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155225_create_reactions_table.php',
-      10 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php',
+      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
+      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
+      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php',
+      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
+      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
+      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\User.php',
+      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Policies\\ConversationPolicy.php',
+      8 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\MessageFactory.php',
+      9 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
+      10 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
+      11 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155225_create_reactions_table.php',
+      12 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      13 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php',
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php' => 
@@ -2482,22 +2730,34 @@ return [
     'fileHash' => '2872c97a9f0099bba8ef3c9ec6efe68efeb6ff43',
     'dependentFiles' => 
     array (
-      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\AuthenticatedSessionController.php',
-      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\RegisteredUserController.php',
-      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
-      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Middleware\\HandleInertiaRequests.php',
-      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\Auth\\LoginRequest.php',
-      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
-      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
-      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
-      8 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php',
-      9 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
-      10 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\auth.php',
-      11 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\UserFactory.php',
-      12 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
-      13 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
-      14 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155225_create_reactions_table.php',
-      15 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php',
+      1 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\AuthenticatedSessionController.php',
+      2 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\Auth\\RegisteredUserController.php',
+      3 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Controllers\\DashboardController.php',
+      4 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Middleware\\HandleInertiaRequests.php',
+      5 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\Auth\\LoginRequest.php',
+      6 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Requests\\Settings\\ProfileUpdateRequest.php',
+      7 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\ConversationResource.php',
+      8 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Http\\Resources\\MessageResource.php',
+      9 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
+      10 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Message.php',
+      11 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Reaction.php',
+      12 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Policies\\ConversationPolicy.php',
+      13 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\auth.php',
+      14 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\factories\\UserFactory.php',
+      15 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155156_create_conversation_user_table.php',
+      16 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155205_create_messages_table.php',
+      17 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\migrations\\2025_10_04_155225_create_reactions_table.php',
+      18 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\database\\seeders\\DatabaseSeeder.php',
+      19 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php',
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Policies\\ConversationPolicy.php' => 
+  array (
+    'fileHash' => 'a0f8c2807667613303eaf0f0624dc8ab17abfb48',
+    'dependentFiles' => 
+    array (
+      0 => 'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Models\\Conversation.php',
     ),
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Providers\\AppServiceProvider.php' => 
@@ -2516,7 +2776,7 @@ return [
   ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\bootstrap\\app.php' => 
   array (
-    'fileHash' => 'cb4bd7c4073eff5b68387ded8f608e304eeefd11',
+    'fileHash' => '65a112a27ad65011310297dedf4010cfb784222d',
     'dependentFiles' => 
     array (
     ),
@@ -2531,6 +2791,13 @@ return [
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\auth.php' => 
   array (
     'fileHash' => '6b861c651d5435e57426b605c053571e438b9826',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\broadcasting.php' => 
+  array (
+    'fileHash' => '4959169619d0ef280e1406b8c9fb5784d23802db',
     'dependentFiles' => 
     array (
     ),
@@ -2587,6 +2854,13 @@ return [
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\queue.php' => 
   array (
     'fileHash' => '557a89d4d8625e682b9874c36a930d463533c052',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\config\\reverb.php' => 
+  array (
+    'fileHash' => '582ca6baf9aa02fe0eb812a6bfc15fc89d71841a',
     'dependentFiles' => 
     array (
     ),
@@ -2691,6 +2965,13 @@ return [
     array (
     ),
   ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\channels.php' => 
+  array (
+    'fileHash' => '4b2ce8951f2021c9b1980ccbf969c4f0d27db08d',
+    'dependentFiles' => 
+    array (
+    ),
+  ),
   'C:\\Users\\arthu\\Herd\\laravel-chat-app\\routes\\console.php' => 
   array (
     'fileHash' => 'f70fbcd77a8d4ed1394dfeb44460061c36fe1c21',
@@ -2784,6 +3065,153 @@ return [
            'name' => 'WOW',
            'value' => '\'WOW\'',
            'phpDoc' => NULL,
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Events\\MessageSent.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Events\\MessageSent',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+        0 => 'Illuminate\\Contracts\\Broadcasting\\ShouldBroadcast',
+      ),
+       'usedTraits' => 
+      array (
+        0 => 'Illuminate\\Queue\\SerializesModels',
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => '__construct',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Create a new event instance.
+     */',
+             'namespace' => 'App\\Events',
+             'uses' => 
+            array (
+              'messageresource' => 'App\\Http\\Resources\\MessageResource',
+              'message' => 'App\\Models\\Message',
+              'privatechannel' => 'Illuminate\\Broadcasting\\PrivateChannel',
+              'shouldbroadcast' => 'Illuminate\\Contracts\\Broadcasting\\ShouldBroadcast',
+              'serializesmodels' => 'Illuminate\\Queue\\SerializesModels',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'message',
+               'type' => 'App\\Models\\Message',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'broadcastOn',
+           'phpDoc' => 
+          \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+             'phpDocString' => '/**
+     * Get the channels the event should broadcast on.
+     *
+     * @return array<int, \\Illuminate\\Broadcasting\\Channel>
+     */',
+             'namespace' => 'App\\Events',
+             'uses' => 
+            array (
+              'messageresource' => 'App\\Http\\Resources\\MessageResource',
+              'message' => 'App\\Models\\Message',
+              'privatechannel' => 'Illuminate\\Broadcasting\\PrivateChannel',
+              'shouldbroadcast' => 'Illuminate\\Contracts\\Broadcasting\\ShouldBroadcast',
+              'serializesmodels' => 'Illuminate\\Queue\\SerializesModels',
+            ),
+             'constUses' => 
+            array (
+            ),
+          )),
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'broadcastAs',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'string',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        3 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'broadcastWith',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
         )),
       ),
        'attributes' => 
@@ -3094,6 +3522,7 @@ return [
       ),
        'usedTraits' => 
       array (
+        0 => 'Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests',
       ),
        'traitUseAdaptations' => 
       array (
@@ -4112,22 +4541,27 @@ return [
        'phpDoc' => 
       \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
+ * App\\Models\\Conversation
+ *
  * @property-read int $id
- * @property-read ConversationType $type
+ * @property-read string $type
  * @property-read string|null $name
  * @property-read string|null $avatar
- * @property-read \\Illuminate\\Support\\Carbon|null $created_at
- * @property-read \\Illuminate\\Support\\Carbon|null $updated_at
- * @property-read \\Illuminate\\Database\\Eloquent\\Collection|User[] $users
- * @property-read \\Illuminate\\Database\\Eloquent\\Collection|Message[] $messages
- * @property-read Message|null $lastMessage
- * @property-read string $displayName
- * @property-read string|null $avatarUrl
+ * @property-read string $display_name
+ * @property-read string|null $avatar_url
+ * @property-read \\Carbon\\Carbon $created_at
+ * @property-read \\Carbon\\Carbon $updated_at
+ *
+ * @property-read \\Illuminate\\Database\\Eloquent\\Collection<int, \\App\\Models\\User> $users
+ * @property-read \\Illuminate\\Database\\Eloquent\\Collection<int, \\App\\Models\\Message> $messages
+ * @property-read \\App\\Models\\Message|null $lastMessage
  */',
          'namespace' => 'App\\Models',
          'uses' => 
         array (
           'conversationtype' => 'App\\Enums\\ConversationType',
+          'conversationpolicy' => 'App\\Policies\\ConversationPolicy',
+          'usepolicy' => 'Illuminate\\Database\\Eloquent\\Attributes\\UsePolicy',
           'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
           'model' => 'Illuminate\\Database\\Eloquent\\Model',
           'belongstomany' => 'Illuminate\\Database\\Eloquent\\Relations\\BelongsToMany',
@@ -4271,6 +4705,14 @@ return [
       ),
        'attributes' => 
       array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedAttributeNode::__set_state(array(
+           'name' => 'Illuminate\\Database\\Eloquent\\Attributes\\UsePolicy',
+           'args' => 
+          array (
+            0 => '\\App\\Policies\\ConversationPolicy::class',
+          ),
+        )),
       ),
     )),
   ),
@@ -4279,7 +4721,35 @@ return [
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
        'name' => 'App\\Models\\Message',
-       'phpDoc' => NULL,
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+ * App\\Models\\Message
+ *
+ * @property-read int $id
+ * @property-read string $content
+ * @property-read int $conversation_id
+ * @property-read int $user_id
+ * @property-read string $created_at_for_humans
+ * @property-read Carbon $created_at
+ * @property-read Carbon $updated_at
+ *
+ * @property-read Conversation $conversation
+ * @property-read User $user
+ */',
+         'namespace' => 'App\\Models',
+         'uses' => 
+        array (
+          'carbon' => 'Carbon\\Carbon',
+          'attribute' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+          'model' => 'Illuminate\\Database\\Eloquent\\Model',
+          'belongsto' => 'Illuminate\\Database\\Eloquent\\Relations\\BelongsTo',
+          'hasmany' => 'Illuminate\\Database\\Eloquent\\Relations\\HasMany',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
        'abstract' => false,
        'final' => true,
        'extends' => 'Illuminate\\Database\\Eloquent\\Model',
@@ -4295,6 +4765,24 @@ return [
        'statements' => 
       array (
         0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'createdAtForHumans',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'Illuminate\\Database\\Eloquent\\Casts\\Attribute',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'conversation',
            'phpDoc' => NULL,
@@ -4312,7 +4800,7 @@ return [
           array (
           ),
         )),
-        1 => 
+        2 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'user',
            'phpDoc' => NULL,
@@ -4330,7 +4818,7 @@ return [
           array (
           ),
         )),
-        2 => 
+        3 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'reactions',
            'phpDoc' => NULL,
@@ -4593,6 +5081,112 @@ return [
            'returnType' => 'array',
            'parameters' => 
           array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  'C:\\Users\\arthu\\Herd\\laravel-chat-app\\app\\Policies\\ConversationPolicy.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'App\\Policies\\ConversationPolicy',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => true,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'view',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'user',
+               'type' => 'App\\Models\\User',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'conversation',
+               'type' => 'App\\Models\\Conversation',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'sendMessage',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'bool',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'user',
+               'type' => 'App\\Models\\User',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+            1 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'conversation',
+               'type' => 'App\\Models\\Conversation',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
           ),
            'attributes' => 
           array (

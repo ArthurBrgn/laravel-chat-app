@@ -16,8 +16,8 @@ final class ConversationResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'name' => $this->displayName,
-            'avatar' => $this->avatarUrl,
+            'name' => $this->display_name,
+            'avatar' => $this->avatar_url,
             'type' => $this->type,
             'last_message' => new MessageResource($this->whenLoaded('lastMessage')),
         ];

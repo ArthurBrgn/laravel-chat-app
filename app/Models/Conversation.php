@@ -15,17 +15,20 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Facades\Auth;
 
 /**
+ * App\Models\Conversation
+ *
  * @property-read int $id
- * @property-read ConversationType $type
+ * @property-read string $type
  * @property-read string|null $name
  * @property-read string|null $avatar
- * @property-read \Illuminate\Support\Carbon $created_at
- * @property-read \Illuminate\Support\Carbon $updated_at
- * @property-read \Illuminate\Database\Eloquent\Collection|User[] $users
- * @property-read \Illuminate\Database\Eloquent\Collection|Message[] $messages
- * @property-read Message|null $lastMessage
- * @property-read string $displayName
- * @property-read string|null $avatarUrl
+ * @property-read string $display_name
+ * @property-read string|null $avatar_url
+ * @property-read \Carbon\Carbon $created_at
+ * @property-read \Carbon\Carbon $updated_at
+ *
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\User> $users
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Message> $messages
+ * @property-read \App\Models\Message|null $lastMessage
  */
 #[UsePolicy(ConversationPolicy::class)]
 final class Conversation extends Model
