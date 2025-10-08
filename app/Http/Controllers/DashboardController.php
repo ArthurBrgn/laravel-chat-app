@@ -37,7 +37,8 @@ final class DashboardController extends Controller
                 });
             })
             ->orderByDesc('messages_max_created_at')
-            ->simplePaginate(20);
+            ->take(25)
+            ->get();
 
         return Inertia::render(
             'dashboard',
@@ -61,6 +62,7 @@ final class DashboardController extends Controller
     {
         $this->authorize('sendMessage', $conversation);
 
+        /** @var \App\Models\Message $message */
         $message = $conversation->messages()->create([
             'content' => $request->validated('content'),
             'user_id' => Auth::id(),

@@ -20,7 +20,6 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @property-read string $created_at_for_humans
  * @property-read Carbon $created_at
  * @property-read Carbon $updated_at
- *
  * @property-read Conversation $conversation
  * @property-read User $user
  */

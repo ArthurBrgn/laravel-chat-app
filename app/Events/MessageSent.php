@@ -15,7 +15,7 @@ use Illuminate\Queue\SerializesModels;
 
 final class MessageSent implements ShouldBroadcast
 {
-    use Dispatchable, SerializesModels, InteractsWithSockets;
+    use Dispatchable, InteractsWithSockets, SerializesModels;
 
     /**
      * Create a new event instance.
@@ -24,12 +24,10 @@ final class MessageSent implements ShouldBroadcast
 
     /**
      * Get the channels the event should broadcast on.
-     *
-     * @return array<int, \Illuminate\Broadcasting\Channel>
      */
     public function broadcastOn(): Channel
     {
-        return new PrivateChannel('conversation.' . $this->message->conversation_id);
+        return new PrivateChannel('conversation.'.$this->message->conversation_id);
     }
 
     public function broadcastAs(): string

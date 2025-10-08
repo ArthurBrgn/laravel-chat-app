@@ -46,10 +46,7 @@ export default function SendMessageForm({
     };
 
     return (
-        <form
-            className="flex max-w-[75%] items-center gap-x-2"
-            onSubmit={handleSubmit}
-        >
+        <form className="flex items-center gap-x-4" onSubmit={handleSubmit}>
             <Input
                 ref={sendInputRef}
                 type="text"
@@ -62,7 +59,7 @@ export default function SendMessageForm({
             <Button
                 type="submit"
                 variant="outline"
-                size="icon"
+                size="lg"
                 className="cursor-pointer rounded-3xl bg-blue-600 transition duration-200 hover:bg-blue-800"
             >
                 <Send />

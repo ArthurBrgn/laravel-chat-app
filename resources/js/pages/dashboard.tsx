@@ -1,12 +1,12 @@
 import ChatWindow from '@/components/chat-window';
 import Sidebar from '@/components/sidebar';
-import { Conversation, PaginatedResponse } from '@/types';
+import { Conversation } from '@/types';
 import { useState } from 'react';
 
 export default function Dashboard({
     conversations,
 }: {
-    conversations: PaginatedResponse<Conversation>;
+    conversations: Conversation[];
 }) {
     const [selectedConversationId, setSelectedConversationId] = useState<
         number | null

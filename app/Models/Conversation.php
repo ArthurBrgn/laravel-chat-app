@@ -25,10 +25,9 @@ use Illuminate\Support\Facades\Auth;
  * @property-read string|null $avatar_url
  * @property-read \Carbon\Carbon $created_at
  * @property-read \Carbon\Carbon $updated_at
- *
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\User> $users
- * @property-read \Illuminate\Database\Eloquent\Collection<int, \App\Models\Message> $messages
- * @property-read \App\Models\Message|null $lastMessage
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, User> $users
+ * @property-read \Illuminate\Database\Eloquent\Collection<int, Message> $messages
+ * @property-read Message|null $lastMessage
  */
 #[UsePolicy(ConversationPolicy::class)]
 final class Conversation extends Model
